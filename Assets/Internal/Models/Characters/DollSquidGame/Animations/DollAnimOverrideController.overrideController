@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DollAnimOverrideController
+  m_Controller: {fileID: 9100000, guid: 50f3f0fe966d41d409881e712587e4f2, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 21aa3ebbbb48e494c902719dae0cb357, type: 2}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 68696cf89aeb8f6478978a11d4f4f66f, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 3fbccb02e15449c4d9ef8c33047afd34, type: 2}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 2173a1948b67827408103ba2ea9f6c84, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: a5adefdf63cb2664daf41b5729abc9d6, type: 2}
+    m_OverrideClip: {fileID: -203655887218126122, guid: ea02264487d3fb64d887bec15e6f9e28, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: fcd241d2953e9554ba41b51915ec962b, type: 2}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 496ca236b2c05164183b86b511fc9394, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: ba8e65b63a3a98747bf2d9d445f1eaa6, type: 2}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 6da8493ffde5aaa48bef23de67a8b341, type: 3}

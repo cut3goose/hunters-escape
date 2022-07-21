@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SirenHeadAnimationOverrideController
+  m_Controller: {fileID: 9100000, guid: 50f3f0fe966d41d409881e712587e4f2, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: ba8e65b63a3a98747bf2d9d445f1eaa6, type: 2}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 38a0326526e013549bd0b96a02d17d10, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 3fbccb02e15449c4d9ef8c33047afd34, type: 2}
+    m_OverrideClip: {fileID: -203655887218126122, guid: c833fb545638ee842a2f857c9a4cf4eb, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: a5adefdf63cb2664daf41b5729abc9d6, type: 2}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 959ba47df7e534b49b70b0414cf44234, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: fcd241d2953e9554ba41b51915ec962b, type: 2}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 4a6f8831a62f5594280af519eafd7ba8, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 21aa3ebbbb48e494c902719dae0cb357, type: 2}
+    m_OverrideClip: {fileID: -203655887218126122, guid: de01034cf2b4a11488fb133290c0602e, type: 3}
