@@ -2,17 +2,13 @@ using UnityEngine;
 
 public class LevelLoadingController : MonoBehaviour
 {
-    private void CallLevelLoading()
+    public void CallLevelLoading()
     {
         LevelLoader.Instance.LoadSuitableLevel();
     }
 
-    #region Init
-
-    private void Awake()
+    public void CallMainMenuLoading()
     {
-        CallLevelLoading();
+        LevelLoader.Instance.LoadMainMenu();
     }
-
-    #endregion
 }

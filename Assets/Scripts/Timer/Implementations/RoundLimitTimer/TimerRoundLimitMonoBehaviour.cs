@@ -43,7 +43,7 @@ public class TimerRoundLimitMonoBehaviour : Singleton<TimerRoundLimitMonoBehavio
         base.Awake();
 
         var startTime = timerConfig.StartTime;
-        TimerRoundLimit = new Timer(startTime);
+        TimerRoundLimit = new Timer(0);
     }
 
     #endregion

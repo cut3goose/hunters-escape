@@ -22,7 +22,7 @@ public class Timer
         
         TimeLeft = _startTime;
 
-        _timerTween = DOTween.To(() => TimeLeft, x => TimeLeft = x, 0, _startTime)
+        _timerTween = DOTween.To(() => TimeLeft, x => TimeLeft = x, 99999, 99999)
             .OnUpdate(NotifyTimerTick)
             .SetEase(Ease.Linear)
             .OnComplete(NotifyTimeRanOut);

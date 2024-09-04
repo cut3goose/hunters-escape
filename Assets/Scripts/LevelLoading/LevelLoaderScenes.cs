@@ -4,6 +4,8 @@ using static Globals;
 
 public class LevelLoaderScenes : LevelLoader
 {
+    public static int MainMenuSceneId = 0;
+    
     public override void LoadSuitableLevel()
     {
         Debug.Log(PassedLevelsAmountData.LevelsPassed);
@@ -50,6 +52,11 @@ public class LevelLoaderScenes : LevelLoader
     {
         var currentLevelID = SceneManager.GetActiveScene().buildIndex;
         LoadScene(currentLevelID);
+    }
+
+    public override void LoadMainMenu()
+    {
+        LoadScene(MainMenuSceneId);
     }
 
     #region Main Actions

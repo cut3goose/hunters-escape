@@ -5,4 +5,5 @@ public abstract class LevelLoader : Singleton<LevelLoader>
     public abstract void LoadRandomLevel();
     public abstract void LoadNextLevel();
     public abstract void RestartLevel();
+    public abstract void LoadMainMenu();
 }
